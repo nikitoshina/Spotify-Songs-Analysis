@@ -33,7 +33,7 @@ It would be impossible to predict popularity based on the set of features. To si
 
 **Confusion Matrix and Statistics**
 It might appear that the algorith does a good job at predicting the popularity. In fact, it puts songs younger than 15 days into first basket and puts other songs in popular segment, largest of all the segments. I was unable to find a method to effectively address the data imbalance.
-
+```text
           Reference
 Prediction    2    1    3    4
          2 3107   22  280   12
@@ -63,3 +63,4 @@ Prevalence             0.8195  0.10234 0.074545 0.0036364
 Detection Rate         0.8070  0.09662 0.001299 0.0005195
 Detection Prevalence   0.8886  0.10597 0.004156 0.0012987
 Balanced Accuracy      0.7665  0.96687 0.507167 0.5710375
+```
